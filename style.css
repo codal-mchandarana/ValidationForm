@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html {
+    font-size: 95%; /*14.4 px*/
+}
+
+body{
+    background: url('image3.jpg') no-repeat no-repeat center/cover;
+}
+
+.form-control{
+    border-width: 3px;
+}
+
+.contain {
+    height: 100vh;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box ;
+}
+
+.main1 {
+    background: linear-gradient(to bottom, #e9e8e7, #e7cb90f6);
+    /* background: white; */
+    padding: 2rem;
+    border: 2px solid ;
+    display: grid;
+    row-gap: 2rem;
+}
